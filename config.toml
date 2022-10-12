@@ -1,0 +1,21 @@
+theme = "catppuccin_macchiato"
+
+[editor]
+color-modes = true
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+# these are reversed from their defaults
+d = "delete_selection_noyank"
+A-d = "delete_selection"
+c = "change_selection_noyank"
+A-c = "change_selection"
+Y = ":clipboard-yank"

@@ -1,0 +1,4 @@
+[[language]]
+name = "ruby"
+auto-format = true
+formatter = { command = "bundle", args = ["exec", "stree", "format"] }
