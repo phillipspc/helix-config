@@ -2,3 +2,7 @@
 name = "ruby"
 auto-format = true
 formatter = { command = "bundle", args = ["exec", "stree", "format"] }
+
+[[language]]
+name = "elixir"
+auto-format = true
