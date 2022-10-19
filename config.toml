@@ -19,9 +19,14 @@ C-j = "half_page_down"
 C-k = "half_page_up"
 esc = "keep_primary_selection"
 
+# for moving selected lines up/down
+C-A-j = ['ensure_selections_forward', 'extend_to_line_bounds', 'extend_char_right', 'extend_char_left', 'delete_selection', 'add_newline_below', 'move_line_down', 'replace_with_yanked']
+C-A-k = ['ensure_selections_forward', 'extend_to_line_bounds', 'extend_char_right', 'extend_char_left', 'delete_selection', 'move_line_up', 'add_newline_above', 'move_line_up', 'replace_with_yanked']
+
+
 # these are reversed from their defaults
-# d = "delete_selection_noyank"
-# A-d = "delete_selection"
-# c = "change_selection_noyank"
-# A-c = "change_selection"
+d = "delete_selection_noyank"
+A-d = "delete_selection"
+c = "change_selection_noyank"
+A-c = "change_selection"
 ########################################
