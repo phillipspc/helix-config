@@ -1,6 +1,7 @@
 [[language]]
 name = "ruby"
 auto-format = true
+config = { solargraph = { diagnostics = true, formatting = false } }
 formatter = { command = "bundle", args = ["exec", "stree", "format"] }
 
 [[language]]
