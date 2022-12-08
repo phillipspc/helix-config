@@ -5,7 +5,7 @@ color-modes = true
 true-color = true
 auto-format = true
 mouse = false
-auto-pairs = false
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
