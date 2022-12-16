@@ -6,6 +6,7 @@ true-color = true
 auto-format = true
 mouse = false
 bufferline = "multiple"
+auto-save = true
 
 [editor.cursor-shape]
 insert = "bar"
