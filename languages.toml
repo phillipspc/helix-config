@@ -7,3 +7,7 @@ formatter = { command = "bundle", args = ["exec", "stree", "format"] }
 [[language]]
 name = "elixir"
 auto-format = true
+
+[[language]]
+name = "jsx"
+auto-format = true
