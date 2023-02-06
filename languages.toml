@@ -11,3 +11,10 @@ auto-format = true
 [[language]]
 name = "jsx"
 auto-format = true
+
+[[language]]
+name = "erb"
+
+[language.auto-pairs]
+'<' = '>'
+'%' = '%'
