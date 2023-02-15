@@ -18,3 +18,5 @@ name = "erb"
 [language.auto-pairs]
 '<' = '>'
 '%' = '%'
+"'" = "'"
+'"' = '"'
