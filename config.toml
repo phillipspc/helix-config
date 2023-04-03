@@ -37,3 +37,11 @@ A-d = "delete_selection"
 c = "change_selection_noyank"
 A-c = "change_selection"
 ########################################
+
+[keys.select]
+# Copy/yank related shortcuts to match normal mode
+Y = ":clipboard-yank"
+d = "delete_selection_noyank"
+A-d = "delete_selection"
+c = "change_selection_noyank"
+A-c = "change_selection"
