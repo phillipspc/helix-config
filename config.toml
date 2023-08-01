@@ -5,7 +5,7 @@ color-modes = true
 true-color = true
 auto-format = true
 mouse = false
-bufferline = "multiple"
+bufferline = "always"
 auto-save = true
 
 [editor.cursor-shape]
