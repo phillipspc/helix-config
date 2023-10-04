@@ -16,6 +16,8 @@ auto-format = true
 
 [[language]]
 name = "erb"
+file-types = ["erb", "html"]
+language-servers = [ "tailwindcss-ls" ]
 
 [language.auto-pairs]
 '<' = '>'
