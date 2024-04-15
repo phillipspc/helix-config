@@ -20,7 +20,7 @@ select = "underline"
 render = true
 
 [keys.normal]
-Y = ":primary-clipboard-yank"
+Y = ":clipboard-yank"
 C-h = ":buffer-previous"
 C-j = "half_page_down"
 C-k = "half_page_up"
