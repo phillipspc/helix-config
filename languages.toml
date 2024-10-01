@@ -1,7 +1,11 @@
 [[language]]
 name = "ruby"
 formatter = { command = "bundle", args = [ "exec", "stree", "format" ]}
+language-servers = [ "ruby-lsp" ]
 auto-format = true
+
+[language-server.ruby-lsp]
+command = "ruby-lsp"
 
 [language-server.solargraph.config.solargraph]
 diagnostics = true
