@@ -28,7 +28,7 @@ C-k = ["page_cursor_half_up", "align_view_center"]
 C-l = ":buffer-next"
 esc = "keep_primary_selection"
 C-w = ":buffer-close"
-C-r = ":reload-all"
+C-r = [":reload-all", ":lsp-restart"]
 D = "kill_to_line_end"
 
 # "more sane" version of existing functionality
