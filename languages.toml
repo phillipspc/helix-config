@@ -11,21 +11,19 @@ command = "ruby-lsp"
 command = "bundle"
 args = ["exec", "rubocop", "--lsp"]
 
-[[language]]
-name = "elixir"
-auto-format = true
-
-[[language]]
-name = "jsx"
-auto-format = true
-
-[[language]]
-name = "erb"
-file-types = ["erb", "html"]
-language-servers = [ "tailwindcss-ls" ]
+# [[language]]
+# name = "erb"
+# file-types = ["erb", "html"]
+# language-servers = [ "tailwindcss-ls" ]
 
 [language.auto-pairs]
 '<' = '>'
 '%' = '%'
 "'" = "'"
 '"' = '"'
+
+[[language]]
+name = "javascript"
+formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+auto-format = true
+file-types = ["jsx"]
