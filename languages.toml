@@ -24,6 +24,6 @@ args = ["exec", "rubocop", "--lsp"]
 
 [[language]]
 name = "javascript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
 auto-format = true
 file-types = ["jsx"]
