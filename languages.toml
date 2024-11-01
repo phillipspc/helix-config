@@ -11,9 +11,9 @@ command = "ruby-lsp"
 command = "bundle"
 args = ["exec", "rubocop", "--lsp"]
 
-# [[language]]
-# name = "erb"
-# file-types = ["erb", "html"]
+[[language]]
+name = "erb"
+file-types = ["erb", "html"]
 # language-servers = [ "tailwindcss-ls" ]
 
 [language.auto-pairs]
