@@ -24,6 +24,6 @@ file-types = ["erb", "html"]
 
 [[language]]
 name = "javascript"
-formatter = { command = 'npx', args = ["prettier", "--parser", "typescript"] }
+formatter = { command = 'npx', args = ["prettier", "--parser", "typescript", "--no-semi" ] }
 auto-format = true
-file-types = ["jsx"]
+file-types = ["js", "jsx"]
