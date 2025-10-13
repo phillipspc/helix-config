@@ -1,0 +1,16 @@
+#!/bin/bash
+# Find project root by looking for .streerc
+find_project_root() {
+    local dir="$PWD"
+    while [ "$dir" != "/" ]; do
+        if [ -f "$dir/.streerc" ]; then
+            echo "$dir"
+            return 0
+        fi
+        dir="$(dirname "$dir")"
+    done
+    echo "$PWD"
+}
+
+PROJECT_ROOT=$(find_project_root)
+cd "$PROJECT_ROOT" && stree "$@"
