@@ -13,4 +13,9 @@ find_project_root() {
 }
 
 PROJECT_ROOT=$(find_project_root)
-cd "$PROJECT_ROOT" && stree "$@"
+
+# Read stdin into variable
+INPUT=$(cat)
+
+# Format using -e flag with the input
+cd "$PROJECT_ROOT" && bundle exec stree format -e "$INPUT"
